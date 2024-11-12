@@ -143,9 +143,9 @@ def open_about_page():      # about page
     about_window.iconphoto(False, icon)
 
     # Create a link to the GitHub repository
-    github_link = ttk.Label(about_window, text="github.com/SamirPaulb/real-time-voice-translator", underline=True, foreground="blue", cursor="hand2")
-    github_link.bind("<Button-1>", lambda e: open_webpage("https://github.com/SamirPaulb/real-time-voice-translator"))
-    github_link.pack()
+    # github_link = ttk.Label(about_window, text="github.com/SamirPaulb/real-time-voice-translator", underline=True, foreground="blue", cursor="hand2")
+    # github_link.bind("<Button-1>", lambda e: open_webpage("https://github.com/SamirPaulb/real-time-voice-translator"))
+    # github_link.pack()
 
     # Create a text widget to display the about text
     about_text = tk.Text(about_window, height=10, width=50)
